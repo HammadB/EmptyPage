@@ -2,6 +2,8 @@
 <html>
 
 <head>
+<meta name="viewport" content="initial-scale=1.0, viewport-fit=cover">
+
 <style>
 div {
   background-color: lightblue;
@@ -9,16 +11,6 @@ div {
   height: 200px;
 }
 
-.pagewrap {
-  transform: translateZ(0);
-  animation-name: 'repaint';
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-timing-function: linear;
-}
-
-@keyframes repaint {from { zoom: 99.99999%; } to { zoom: 99.99998%; }}
 </style>
 </head>
 <body class="pagewrap">
