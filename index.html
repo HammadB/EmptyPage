@@ -8,18 +8,19 @@ div {
   width:80%;
   height: 200px;
 }
-  
-html, body {
-  height: 100%;
-  overflow-y: hidden;
-}
 
 </style>
 </head>
 <body>
 
-<div>
+<div id="test123">
 </div>
 
 </body>
+  
+<script>
+  console.log('running test reflow');
+  document.getElementById('test123').style.display = 'none';
+  document.getElementById('test123').style.display = 'block';
+</script>
 </html>
